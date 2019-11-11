@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+.nav-list-parent {
+    display: flex;
+
+}
+
+.nav-list-parent > .nav-list-child {
+list-style: none;
+background: linear-gradient( 180deg,rgb(102,102,102) 50%, #a3a2a2 100%);
+border: .1px solid grey;
+border-radius: 4px 0 0 4px;
+
+}
+
+.nav-list-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 105.633px;
+    height: 36px;
+}
+
+.nav-list-child > .list-child-text {
+    font-size: 12px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.list-child-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.list-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px ;
+    width: 100px;
+    border: 2px black inset;
+}
+
+.nav-list-child-input{
+   width: 150px;
+}
+
+.list-input-form > input{
+    width: 60px;
+    height: 20px;
+    border: none;
+    background: linear-gradient( 180deg,rgb(102,102,102) 50%, #a3a2a2 100%);
+
+}
