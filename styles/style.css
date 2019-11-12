@@ -1,8 +1,19 @@
-*{
+*{  
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-
+.flex-main-container {
+    height: 540px;
+    background: 
+    url('https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg')
+    100% 103% no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:stretch;
+    
+}
 
 .nav-list-parent {
     display: flex;
@@ -10,29 +21,31 @@
 }
 
 .nav-list-parent > .nav-list-child {
-list-style: none;
-background: linear-gradient( 180deg,rgb(102,102,102) 50%, #a3a2a2 100%);
-border: .1px solid grey;
-border-radius: 4px 0 0 4px;
-
-}
-
-.nav-list-child {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 105.633px;
     height: 36px;
+    background: linear-gradient( 180deg,rgb(102,102,102) 50%, #a3a2a2 100%);
+    border: .1px solid grey;
+    border-radius: 4px 0 0 4px;
+    list-style: none;
+}   
+
+.nav-list-child:hover{
+    
+    box-shadow: none;
 }
 
 .nav-list-child > .list-child-text {
+    font-family:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif ;
     font-size: 12px;
-    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
     text-align: center;
     color: white;
 }
 
 .list-child-icon {
+    
     width: 20px;
     height: 20px;
 }
@@ -55,5 +68,56 @@ border-radius: 4px 0 0 4px;
     height: 20px;
     border: none;
     background: linear-gradient( 180deg,rgb(102,102,102) 50%, #a3a2a2 100%);
+}
+
+.flex-main-link-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-link {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.main-text, .main-text-bigger {
+    font-weight: bold;
+}
+
+.main-text {
+    font-size: 20px;
+}
+
+.main-text-bigger{
+    font-size: 28px;
+}
+
+.main-title{
+    font-size: 64px;
+}
+
+.flex-paragraph-container{
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-link-and-icon-container{
+    width: 105%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-link-decoration:hover{
+    text-decoration: underline;
+}
+
+.flex-link-and-icon-container > .main-icon {
+    width: 30px;
+    height: 30px;
 
 }
