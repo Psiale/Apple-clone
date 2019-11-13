@@ -45,7 +45,7 @@ ignore: ["after-comment", "inside-single-line-block"]
 "declaration-block-semicolon-space-before": "never",
 "declaration-block-single-line-max-declarations": 1,
 "declaration-block-trailing-semicolon": "always",
-"declaration-colon-newline-after": "never",
+"declaration-colon-newline-after": "always",
 "declaration-colon-space-after": "always-single-line",
 "declaration-colon-space-before": "never",
 "declaration-empty-line-before": [
