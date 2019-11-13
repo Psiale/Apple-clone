@@ -1,5 +1,4 @@
-* {
-    
+* {   
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     padding: 0;
@@ -31,7 +30,7 @@
     border: .1px solid grey;
     border-radius: 4px 0 0 4px;
     list-style: none;
-}   
+}
 
 .nav-list-child > .list-child-text {
     font-family:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
@@ -113,7 +112,6 @@
 .flex-link-and-icon-container > .main-icon {
     width: 30px;
     height: 30px;
-
 }
 
 .flex-images-section-container {
@@ -121,7 +119,8 @@
     display: flex;   
 }
 
-.flex-images-section-container > img {
+.flex-images-section-container > img 
+{
     border: .5px white solid;
     width: 335px;
     height: 200px;
