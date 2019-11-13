@@ -123,10 +123,10 @@
 .flex-images-section-container {
   width: 100vw;
   display: flex;
+  overflow: hidden;
 }
 
-.flex-images-section-container > img {
-  border: 0.5px white solid;
+.flex-images-section-container > a {
   width: 25%;
   height: 200px;
 }
