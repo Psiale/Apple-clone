@@ -5,7 +5,7 @@
 }
 
 .flex-main-container {
-  width: 100%;
+  width: 100vw;
   height: 540px;
   background: url('https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg') 100% 100% no-repeat;
   display: flex;
@@ -121,13 +121,13 @@
 }
 
 .flex-images-section-container {
-  width: 100vh;
+  width: 100vw;
   display: flex;
 }
 
 .flex-images-section-container > img {
   border: 0.5px white solid;
-  width: 335px;
+  width: 25%;
   height: 200px;
 }
 
