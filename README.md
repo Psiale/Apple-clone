@@ -1,6 +1,6 @@
 # Apple-clone
 
-* [The purpouse of this webpage](#The-purpouse-of-this-webpage)
+* [The purpose of this webpage](#The-purpouse-of-this-webpage)
 * [Built With](#built-with)
 * [Author](#author)
 <br>
