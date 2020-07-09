@@ -5,7 +5,7 @@
 * [Author](#author)
 <br>
 
-# The purpouse of this webpage:
+# The purpose of this webpage:
 to create an static mockup clone of an old apple page using flexbox, gradients and floats. 
 <br>
 
